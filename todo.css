@@ -1,0 +1,96 @@
+body {
+    width: auto;
+    /* background-color: rgba(14, 230, 230, 0.7);*/
+    background: url(photo-2.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+        
+}
+
+li {
+    list-style: none;
+    padding: 10px 10px;
+    color: #4EB9CD;
+    text-transform: capitalize;
+    font-weight: 800;
+    border: 2px solid #025f70;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    background:#ffffff;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+   
+
+    
+}
+.text, .submit{
+    border-radius: 7px;
+    border: none;
+}
+
+li:hover {
+    background: #DFDEE8;
+}
+
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #025f70;
+    font-weight: 100;
+}
+.delete {
+    display: none;
+}
+input.text{
+    width: 40%;
+    height: 1.7rem;
+    text-align: center;
+}
+
+input.text:hover{
+    height: 1.8rem;
+    background-color: whitesmoke;
+}
+
+button.submit{
+    height: 1.8rem;
+}
+div#writeHere{
+    width: auto;
+}
+button.submit:hover{
+    background-color: cornsilk;
+    height: 1.9rem;
+}
+
+h1, p{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+
+}
+h1{
+    text-shadow: black 90px 2px 2px 10px;
+}
+div#container{
+     min-height: min-content;
+    max-height: max-content;
+    margin: auto;
+    
+    
+}
+
+h1, p{
+    color: rgb(0,0, 0);
+    
+}
